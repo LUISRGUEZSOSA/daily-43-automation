@@ -1,0 +1,17 @@
+venv
+salida
+.env
+.env
+*.backup.xlsx
+*.json
+*.p12
+*.pem
+*.key
+# Si quieres ser granular:
+daily_automation/licor-cuarentaytres-*.json
+
+# Service Account keys
+.daily_secrets/
+daily_automation/*.json
+.env
+
