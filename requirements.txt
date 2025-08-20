@@ -1,2 +1,17 @@
-python-dotenv
-pandas
+# --- Base ---
+python-dotenv       # para cargar .env
+openpyxl            # lectura/escritura de Excel
+pandas              # lectura hoja Daily y manipulación de DataFrames
+
+# --- Google Sheets ---
+gspread
+gspread-dataframe   # sube/lee DataFrames a Google Sheets
+
+# --- Google APIs (Drive/Sheets) ---
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+
+# --- Otros ---
+requests            # (si en algún punto prefieres requests a urllib, opcional)
